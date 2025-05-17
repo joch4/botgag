@@ -4,6 +4,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import asyncio
 import threading
 
+import os
+
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
